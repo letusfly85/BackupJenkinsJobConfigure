@@ -17,15 +17,11 @@ synopsis:            backup jenkins job configure files
 
 -- A longer description of the package.
 -- description:         
+Description: Backup jenkins job configures
+
 
 -- URL for the project homepage or repository.
 homepage:            https://github.com/letusfly85/BackupJenkinsJobConfigure
-
--- The license under which the package is released.
-license:             BSD3
-
--- The file containing the license text.
-license-file:        LICENSE
 
 -- The package author(s).
 author:              Shunsuke Wada
@@ -33,6 +29,12 @@ author:              Shunsuke Wada
 -- An email address to which users can send suggestions, bug reports, and 
 -- patches.
 maintainer:          letusfly95@gmail.com
+
+-- The license under which the package is released.
+license:BSD3
+
+-- The file containing the license text.
+license-file:        LICENSE
 
 -- A copyright notice.
 -- copyright:           
@@ -58,3 +60,7 @@ library
   -- Directories containing source files.
   hs-source-dirs:      src
   
+source-repository head
+  type: darcs
+  location: https://github.com/letusfly85/BackupJenkinsJobConfigure
+
